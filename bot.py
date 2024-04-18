@@ -1,6 +1,5 @@
 # bot.py
 import os
-import random
 
 from mcstatus import JavaServer
 import discord

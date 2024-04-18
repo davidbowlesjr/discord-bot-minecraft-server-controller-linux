@@ -17,7 +17,6 @@ SERVER MUST BE RUNNING ON A LINUX DISTRO WITH THE SCREEN TOOL
 ### Imports
 
 - `os`: For interacting with the operating system
-- `random`: For generating random numbers (unused in this script)
 - `mcstatus.JavaServer`: For querying Minecraft server status
 - `discord`: For creating the Discord bot
 - `dotenv.load_dotenv`: For loading environment variables from the `.env` file
