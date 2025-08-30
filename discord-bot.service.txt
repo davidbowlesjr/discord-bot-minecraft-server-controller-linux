@@ -1,0 +1,12 @@
+# /etc/systemd/system/discord-bot.service
+[Unit]
+Description=Discord bot service
+
+[Service]
+WorkingDirectory=/home/deej/
+User=deej
+ExecStart=/usr/bin/python3 /home/deej/discord-minecraft-bot/bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
